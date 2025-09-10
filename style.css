@@ -35,8 +35,25 @@ article p:nth-of-type(2n){
 }
 
 /* States in css */
+
+
+a{
+    color:blue;
+    
+}
+/* focus, hover, visited, active states */
 h1:hover{
     color:rgb(111, 186, 111);
     cursor:pointer;
     transition-duration: 20s;
 }
+
+a:visited{
+    color:aquamarine;
+}
+
+a:active{
+    color: cadetblue;
+}
+
+
