@@ -7,13 +7,14 @@ div h2{
 }
 
 
-/* pseudo selectors */
+/* pseudo selectors and their some types */
 .article h2{
     color:green;
 }
 
 article p{
-    color:olive;
+    color:rgb(196, 196, 37);
+    
 }
 
 /* special pseudo selector */
@@ -23,5 +24,8 @@ article p:first-of-type{
 
 article p:last-of-type{
     color:blue;
-    
+
+}
+article p:nth-of-type(2n){
+    color: blueviolet;
 }
