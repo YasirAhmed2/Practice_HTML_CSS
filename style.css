@@ -11,3 +11,17 @@ div h2{
 .article h2{
     color:green;
 }
+
+article p{
+    color:olive;
+}
+
+/* special pseudo selector */
+article p:first-of-type{
+    color: brown;
+}
+
+article p:last-of-type{
+    color:blue;
+    
+}
