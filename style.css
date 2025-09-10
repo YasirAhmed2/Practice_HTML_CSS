@@ -18,14 +18,25 @@ article p{
 }
 
 /* special pseudo selector */
+/* apply on just 1 child */
 article p:first-of-type{
     color: brown;
 }
 
+/* apply on last child */
 article p:last-of-type{
     color:blue;
 
 }
+
+/* applying on any specific type like 2(n) mean on even */
 article p:nth-of-type(2n){
     color: blueviolet;
+}
+
+/* States in css */
+h1:hover{
+    color:rgb(111, 186, 111);
+    cursor:pointer;
+    transition-duration: 20s;
 }
