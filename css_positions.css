@@ -4,8 +4,51 @@
     /* position: fixed; */
 
     /* sticky position */
-    display: block;
+    /* display: block;
     position: sticky;
-    top:0; 
-   
+    top:0;  */
+
+    /*  */
+
+
 }
+
+/* absolute positioning */
+   #relcontainer{
+position: relative;
+/* margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px; */
+background-color: aquamarine;
+border: 3px solid black;
+width:300px;
+height:200px;
+   }
+
+    #circle{
+/*  */
+/* margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px; */
+position: absolute;
+background-color: rgb(34, 235, 31);
+border: 3px solid black;
+width:200px;
+height:100px;
+   }
+
+
+       #square{
+/*  */
+/* margin-top: 20px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px; */
+position: absolute;
+background-color: rgb(22, 22, 176);
+border: 3px solid rgb(201, 189, 189);
+width:100px;
+height:50px;
+   }
