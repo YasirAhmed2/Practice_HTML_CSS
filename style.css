@@ -43,13 +43,14 @@ a{
 }
 /* focus, hover, visited, active states */
 h1:hover{
-    color:rgb(111, 186, 111);
+    color:rgb(72, 189, 72);
     cursor:pointer;
     transition-duration: 20s;
 }
 
 a:visited{
     color:aquamarine;
+
 }
 
 a:active{
