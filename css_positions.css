@@ -1,16 +1,14 @@
 #picture{
      margin: 0 auto 20px auto;
      /* position of image fixed */
-    /* position: fixed; */
+    position: fixed; 
 
     /* sticky position */
-    /* display: block;
+    display: block;
     position: sticky;
-    top:0;  */
+    top:0; 
 
     /*  */
-
-
 }
 
 /* absolute positioning */
@@ -39,8 +37,7 @@ width:200px;
 height:100px;
    }
 
-
-       #square{
+#square{
 /*  */
 /* margin-top: 20px;
 margin-left: 10px;
