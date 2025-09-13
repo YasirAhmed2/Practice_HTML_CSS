@@ -1,16 +1,16 @@
-#container{
+#container {
     display: flex;
-    height:500px
-width:400px;
-border: 3px solid black;
-gap: 20px;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-justify-content: space-around;
-background-color: lightgrey;
-/* flex-direction: column; */
+    height: 500px;
+    width: 400px;
+    border: 3px solid black;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(247, 227, 227);
+    /* flex-direction: column; */
 
 
-/* Note: in case of flex row align-item work in y-axis and justify-content work in x-axis */
+    /* Note: in case of flex row align-item work in y-axis and justify-content work in x-axis */
 }
