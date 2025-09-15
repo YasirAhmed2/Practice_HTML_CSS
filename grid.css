@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* 1. Basic Grid */
+.grid-basic {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: #f2f2f2;
+  padding: 10px;
+}
+.grid-basic > div {
+  background: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 2. Explicit Rows and Columns */
+.grid-explicit {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 80px 80px;
+  background: #e0f7fa;
+  gap: 10px;
+}
+.grid-explicit > div {
+  background: #00838f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* 3. Grid Gap */
+.grid-gap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.grid-gap > div {
+  background: #ff5722;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* 4. Grid Template Areas */
+.grid-areas {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "nav main"
+    "nav main"
+    "nav main"
+    "nav sidebar"
+    "footer footer";
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(7,1fr);
+  gap: 10px;
+}
+.grid-areas > * {
+  background: #9c27b0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: nav;
+}
+main {
+  grid-area: main;
+}
+aside {
+  grid-area: sidebar;
+}
+footer {
+  grid-area: footer;
+}
+
+/* 5. Aligning Items */
+.grid-align {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(2, 150px);
+  justify-content: space-evenly; /* horizontal alignment */
+  align-content: space-evenly; /* vertical alignment */
+  background: #fce4ec;
+  height: 400px;
+}
+.grid-align > div {
+  background: #e91e63;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 6. Nested Grid */
+.grid-nested {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-nested > div {
+  background: #3f51b5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.nested {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.nested > div {
+  background: #c5cae9;
+  color: black;
+}

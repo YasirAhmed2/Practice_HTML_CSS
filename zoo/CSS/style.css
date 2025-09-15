@@ -16,13 +16,13 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url("https://adnamerica.com/sites/default/files/styles/social_media/public/2023-02/zooshutterstock_246506902.jpg?itok=a0wW_LLq") no-repeat center center/cover;
+  background: url("") no-repeat center center/cover;
   display: flex;
   align-items: center;
   color: white;
 }
 
-
+/* Dark overlay */
 #hero::before {
   content: "";
   position: absolute;
@@ -32,7 +32,7 @@ body {
   z-index: 1;
 }
 
-
+/* Content wrapper */
 .content-width {
   position: relative;
   width: 100%;
