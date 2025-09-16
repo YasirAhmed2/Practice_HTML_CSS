@@ -1,0 +1,19 @@
+h1{
+    /* before grid and flex boxes we use float to make interfaces */
+    /* effect like flex box justify-content:space-between */
+    /* float: left; /* push  to left possible space */
+    /* float:right;  --> push to right possible space */
+    float: right;
+    float:none;
+
+    /* media query */
+    @media screen and(min-width:380px) and (max-width:959px) {
+    
+    }
+
+    /* overflow */
+    overflow:scroll-y;
+    overflow: both scroll;
+    overflow: hidden;
+
+}
